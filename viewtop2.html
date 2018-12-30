@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/default.min.css">
+  </head>
+  <body>
+    <div id="outer">
+      <div id="inner">
+        <h1 style="margin-top:20px; margin-bottom:40px">
+          <center>Viewing top two rows of dataframe</center>
+        </h1>
+        <div>
+          <div style="float:left">
+            <img src="allthreerows.png" alt="CSV" class="center" >
+          </div>
+          <div style="float:right">
+            <img src="viewtop2.png" alt="Dataframe" class="center">
+          </div>
+        </div>
+        <div style="clear:both"></div>
+        <pre>
+          <code class="python">
+            df_top = df.head(2)
+          </code>
+        </pre>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
